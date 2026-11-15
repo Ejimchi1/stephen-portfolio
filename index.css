@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", "Georgia", serif;
+  --font-sans: "Inter", "Helvetica Neue", Arial, sans-serif;
+  
+  --color-brand-navy: #0A1128;
+  --color-brand-navy-light: #1A1A1A;
+  --color-brand-gold: #C5A059;
+  --color-brand-red: #8B0000;
+  --color-brand-gray: #F8F9FA;
+  --color-brand-ink: #141414;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply font-sans bg-white text-gray-900;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
