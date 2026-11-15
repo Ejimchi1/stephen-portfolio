@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
-import portrait from '../assets/images/about-portrait.jpg';
+import portrait from './about-portrait.jpg';
 
 const navLinks = [
   { name: 'Overview', href: '#hero' },

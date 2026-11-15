@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'motion/react';
-import aboutPortrait from '../assets/images/about-portrait.jpg';
+import aboutPortrait from './about-portrait.jpg';
 
 export const About: React.FC = () => {
   return (

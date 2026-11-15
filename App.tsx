@@ -3,16 +3,16 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { Navbar } from './components/Navbar';
-import { Hero } from './components/Hero';
-import { About } from './components/About';
-import { Experience } from './components/Experience';
-import { Projects } from './components/Projects';
-import { Company } from './components/Company';
-import { Philosophy } from './components/Philosophy';
-import { Testimonials } from './components/Testimonials';
-import { Contact } from './components/Contact';
-import { Footer } from './components/Footer';
+import { Navbar } from './Navbar';
+import { Hero } from './Hero';
+import { About } from './About';
+import { Experience } from './Experience';
+import { Projects } from './Projects';
+import { Company } from './Company';
+import { Philosophy } from './Philosophy';
+import { Testimonials } from './Testimonials';
+import { Contact } from './Contact';
+import { Footer } from './Footer';
 
 export default function App() {
   return (

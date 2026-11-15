@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'motion/react';
-import companyImage from '../assets/images/company-image.jpg';
+import companyImage from './company-image.jpg';
 
 export const Company: React.FC = () => {
   return (
